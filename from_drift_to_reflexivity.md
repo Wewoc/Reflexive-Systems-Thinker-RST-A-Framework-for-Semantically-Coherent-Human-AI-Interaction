@@ -110,7 +110,8 @@ They took on specific functional meanings through observation rather than concep
 
 It began with a simple frustration: long AI dialogues started to *drift* – slowly losing internal coherence.  
 To counter that, I began tagging key insights with small textual “markers” so they wouldn’t vanish as the context evolved.  
-These markers acted like *semantic anchors*, keeping the thread alive. Over time, this ad-hoc method crystallized into what I called the **Semantic Marker Network (SMN)** – a lightweight feedback architecture that preserved coherence across iterations.
+These markers acted like *semantic anchors*, keeping the thread of the conversation from dissolving and eventually crystallizing into what the AI called the **Semantic Marker Network (SMN)**: a simple feedback architecture that preserved coherence across iterations. Within less than 24 hours, those improvised anchors had become a deliberate control architecture, explicitly designed to counter LLM drift. From the beginning it was tested across different models, turning a local prompt hack into a model-agnostic control layer whose purpose was simple: make insights from a single chat structurally reusable – not by storing more content, but by stabilizing the decisions and definitions the dialogue depended on.
+
 
 At first, the SMN worked like scaffolding. Then something unexpected appeared: the dialogue began to *observe itself*. The system was no longer just following structure – it was maintaining it.
 
