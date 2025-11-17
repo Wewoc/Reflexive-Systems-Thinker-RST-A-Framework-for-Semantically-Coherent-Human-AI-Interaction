@@ -121,6 +121,41 @@ To avoid drift and misinterpretation, use this reading order:
 
 ---
 
+### 3.1 Optional RST NotebookLM (convenience layer)
+
+There is an **optional public NotebookLM workspace** that mirrors this repository as PDFs:
+
+> 👉 (https://notebooklm.google.com/notebook/95387ba6-0e11-4d7f-beac-f9eb423d8fb3)
+
+**What it is for**
+
+- A convenience layer on top of this repo.  
+- Lets you:
+  - ask questions about the RST documents,
+  - get structured summaries or comparisons,
+  - generate audio explanations of specific sections.
+- Uses only:
+  - PDFs exported from the public RST repository, and  
+  - the file `RST_Capabilities_and_Limitations_NotebookLM_EN`.
+
+**What it is *not***
+
+- **Not** a normative source: the **canonical reference** for RST remains the text files in this repository, especially `/core`.  
+- **Not** an endorsement or official product of Google or NotebookLM.  
+- **Not** additional validation of RST: NotebookLM can still hallucinate, omit details, or misinterpret context.  
+- **Not** a clinical, legal, financial, or crisis-support tool.  
+  For the scope and limits of RST itself, see  
+  `RST_Capabilities_and_Limitations_NotebookLM_EN`.
+
+**How to interpret answers from NotebookLM**
+
+- Treat NotebookLM outputs as **derived views** on the repo content, not as new facts.  
+- For any critical or high-impact use (research design, governance decisions, publications, etc.):
+  - always verify against the original files in `/core` and `/applied`,  
+  - never rely on NotebookLM as a single source of truth.
+
+---
+
 ## 4. What RST Is Not  
 
 RST is **not**:
