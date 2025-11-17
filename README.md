@@ -121,6 +121,33 @@ To avoid drift and misinterpretation, use this reading order:
 
 ---
 
+### 3.1 Idea & Origin – Why RST Exists
+
+RST did not start as a framework.  
+It started as a very practical problem: in long AI chats, **meaning kept drifting** – answers became nicer, but less aligned. Over time, I began adding small “markers” to keep decisions and definitions from dissolving. Those improvised anchors turned into the **Semantic Marker Network (SMN)** – an early control architecture to stabilize dialogue across many iterations. 
+
+SMN worked, but it was heavy: too many markers, too much structure, too much context overhead.  
+The surprising part was not the prompt itself, but what happened *inside* the dialogue: the system started to **use its own structure to keep itself coherent**. Drift became a signal, not just a failure. Out of that behavior, in several models and without shared memory, something more compact emerged: the **Reflexive Systems Thinker (RST)**. 
+
+RST is therefore **not a theory invented on paper** and not a new AI model.  
+It is the distilled result of an experiment:
+
+- *What happens if you treat an LLM dialogue as a system that must keep its own meaning stable?*  
+- *Can we describe that behavior as a small, testable rule set instead of a story?*
+
+The answer is the current RST Core Prompt (V1.6): a **minimal governance layer** that any model can run, with explicit activation, stance-first communication (P0), drift control, and a 15-minute replication protocol to check whether it actually behaves as claimed. 
+
+### What is special about RST?
+
+- **Emergent, not invented:** it was reconstructed *after* the behavior appeared in real human–AI interaction, then compressed into a small, normative core.   
+- **Architecture, not narrative:** all “nice” emergence stories live in `/lab/`; the actual behavior is defined only by the Core Prompt and a few small tools (Quick Matrix, markers, replication).   
+- **Model-agnostic & testable:** it runs on different LLMs and comes with a simple external test protocol and a multi-LLM stress test report that documents where it holds and where it fails.   
+
+In short:  
+> **RST is what remained when a long-running drift-control experiment was stripped of all story and compressed into a small, reproducible rule loop.**
+
+---
+
 ### 3.1 Optional RST NotebookLM (convenience layer)
 
 There is an **optional public NotebookLM workspace** that mirrors this repository as PDFs:
