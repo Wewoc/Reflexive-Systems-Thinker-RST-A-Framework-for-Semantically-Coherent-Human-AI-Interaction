@@ -154,6 +154,10 @@ There is an **optional public NotebookLM workspace** that mirrors this repositor
 
 > 👉 (https://notebooklm.google.com/notebook/95387ba6-0e11-4d7f-beac-f9eb423d8fb3)
 
+### 3.2 Method Paper
+
+   https://osf.io/uatdw/files/osfstorage/691e15156b96b583047703ee 
+
 **What it is for**
 
 - A convenience layer on top of this repo.  
