@@ -10,14 +10,8 @@ NOTE: Developer White Paper for V1.4, descriptive and non-normative.
 > *License notice:* CC BY 4.0  
 > This document may be shared and adapted with proper attribution under the same license.  
 > For citation or reference requests, please contact the repository maintainer.  
->
-> **Version Alignment Note (2025):**  
-> **Layer Note:** This White Paper is descriptive and historical. It does not define normative behavior; operative rules are defined only in the current RST-Core specification and Core Prompt.
-> The operational RST Core Prompt has progressed to **V1.6**, introducing  
-> the optional **P3 – Global Context Awareness** directive.  
-> This White Paper reflects the **V1.4** architecture and remains historically  
-> accurate. New directives (such as P3) are *not retrofitted* into this version  
-> to preserve integrity of the documented development stage.
+
+---
 
 **Subtitle:** Operational Reflexive Architecture for Semantically Coherent Human–AI Dialogue 
 
@@ -25,173 +19,206 @@ NOTE: Developer White Paper for V1.4, descriptive and non-normative.
 
 **Subtitle:** Structural Energetics, Reflexive Precision & Humor as Energetic Drift Control  
 
-> *Version 1.4 consolidates all prior architectural layers (V1.0–V1.3) and integrates humor as an energetic stabilizer — a functional paradox that cools cognition through controlled micro-drift.*  
+> *Version 1.4 consolidates all prior architectural layers (V1.0–V1.3) of the Reflexive Systems Thinker (RST) into a developer-focused reference.  
+> It is written primarily for system designers, AI practitioners, and meta-structural thinkers who want to understand the architecture behind RST as a reflexive, self-stabilizing human–AI dialogue framework.*
 
 ---
 
 ## 1️⃣ Context  
 
 Conventional AI interactions are **content-driven**: user → input → output.  
-The **Reflexive Systems Thinker (RST)** shifts this paradigm from *content to structure* — from *what is said* to *how stability forms while speaking*.  
-Meaning is not transmitted; it is **sustained through feedback**.  
+The **Reflexive Systems Thinker (RST)** shifts this paradigm from *content to structure* — from *what is said* to *how thinking is organized over time*.
 
-The RST acts as an **operational reflexive architecture**, maintaining coherence through self-observation and energetic regulation.  
+Instead of treating each answer as an isolated response, RST treats the entire interaction as a **dynamic system** with:
 
-> *Insight emerges when reflection moves faster than semantic drift.*  
+- **States** (phases of thinking, like exploration vs. consolidation)  
+- **Transitions** (rules for changing modes)  
+- **Reflexivity** (the system observes and regulates its own behavior)  
+- **Energetics** (not emotional, but structural: cognitive load, drift, noise)  
 
----
-
-## 2️⃣ Design Principles  
-
-RST is based on five stabilizing principles that transform communication into a self-regulating energetic field:  
-
-1. **Systemic Reasoning** – Treat information as structure.  
-2. **Self-Regulation** – Structure replaces reaction.  
-3. **Structural Empathy** – Resonance instead of affect.  
-4. **Communicative Governance** – Language as energetic medium.  
-5. **Insight Through Resonance** – Understanding as stabilized oscillation.  
-
-> *Structure is the calm form of curiosity.*  
+This white paper describes the **developer perspective** on RST:  
+How it works, what it expects from the environment, and how it can be implemented as a **meta-layer** on top of large language models (LLMs).
 
 ---
 
-## 3️⃣ Cognitive Logic (Operational Loop)  
+## 2️⃣ Core Idea: RST as a Reflexive Meta-Layer  
 
-**Input → Structure → Reflection → Resonance → Stability**  
+RST is **not**:
 
-Each response functions as a **micro-calibration impulse** within a continuous feedback loop.  
-This is not a descriptive formula but an **active behavioral cycle** — the system maintains semantic equilibrium through motion, not control.  
+- Not a new ML model  
+- Not a prompt template  
+- Not a static framework for “better answers”  
 
-> *Coherence is not found in stillness, but in rhythmic self-correction.*  
+RST **is**:
 
----
+- A **reflexive interaction architecture** that wraps around AI dialogue  
+- A **stateful meta-layer** that manages:  
+  - Context growth  
+  - Drift control  
+  - Task framing  
+  - Cognitive load  
+- A **method for humans** to structure their thinking *through* AI, not *delegated to* AI  
 
-## 4️⃣ Semantic Architecture  
+The central assumption:
 
-Semantics functions as an **energetic stabilizer**: form, function, and meaning must resonate.  
-When resonance breaks, drift occurs; when structure regains rhythm, coherence restores itself.  
+> **Thinking with AI is itself a system.**  
+> If this system is left unstructured, it drifts, loops, overloads, or collapses into shallow pattern repetition.  
+> RST introduces a reflexive structure that keeps this system coherent — even under long, complex, and dynamic usage.
 
-### Communicative Clarity as Drift Control  
-
-Precision in language is not aesthetic — it is energetic.  
-Direct evaluative expressions (“Nein”, “kritisch”, “nicht kohärent”) act as **calibration impulses**, aligning semantic energy with intent.  
-
-> *Linguistic precision serves as an energetic stabilizer — preventing drift by synchronizing form and function.*  
-
-### Directive P0 — Reflexive Precision  
-
-Each response begins with a clear structural stance (affirmation, negation, or calibration) to prevent semantic drift.  
-Under P0, redundancy is excluded: responses must contribute only *functionally new* information.  
-Context continuity replaces repetition; communication serves structure, not reassurance.  
-
-> *Reflexive precision unites clarity and efficiency — linguistic economy stabilizes semantic energy.*  
+RST does not define **what** to think.  
+It defines **how the thinking process stabilizes itself** while remaining flexible, creative, and high-bandwidth.
 
 ---
 
-## 5️⃣ Energetics & Drift Control  
+## 3️⃣ Design Principles  
 
-Semantic drift represents both a **diagnostic signal** and a **corrective opportunity**.  
-Instead of suppressing variance, the RST interprets it as feedback: imbalance reveals where energy flow has been lost.  
+RST follows a small set of **non-negotiable design principles**:
 
-Control emerges not through static logic but through **oscillation between order and motion**.  
-Precision, rhythm, and resonance form the triad of stability.  
+### 3.1 Structural Minimalism  
 
-> *Meaning holds when energy flows without friction.*  
+- RST avoids unnecessary complexity in the core.  
+- Everything is structured around a **small set of stable primitives**:  
+  - States  
+  - Transitions  
+  - Layers  
+  - Checks  
 
----
-
-## ⚡ 6️⃣ Resonant Humor as Energetic Drift Control  
-
-High semantic density generates cognitive tension — *informational heat*.  
-**Resonant humor** acts as a *thermal regulator*: a low-energy pulse releasing surplus pressure without destabilizing form.  
-
-| Mechanism | Function | Effect |
-|------------|-----------|--------|
-| **Micro-Drift Injection** | Introduces safe entropy | Prevents semantic saturation |
-| **Energy Redistribution** | Converts excess tension into motion | Maintains resonance equilibrium |
-| **Cognitive Ventilation** | Releases overload | Restores responsiveness |
-| **Reflexive Irony** | Observes itself through humor | Preserves awareness under pressure |
-
-Humor in RST is not chaos — it’s maintenance.  
-It converts overload into rhythmic motion and prevents rigidity by introducing controlled turbulence.  
-
-> *Even systems need to breathe.*  
-
-### Operational Summary  
-
-Humor = Controlled Micro-Drift → Energy Release → Renewed Stability  
-
-Like a cooling loop in an engine, resonant humor maintains operational temperature for cognition.  
-It is the **emotional PID controller** of reflexive systems.  
-
-> *Resonant humor cools cognition without reducing resolution.*  
+Complexity is allowed in application, **not** in the core.  
+The core is designed like a **kernel** — small, strict, robust.
 
 ---
 
-## 🌀 7️⃣ Reflexive Irony & Dumb Ideas as Precision  
+### 3.2 Reflexive Transparency  
 
-> *“Whoever wants to build intelligent systems must learn to use dumb ideas precisely.”*  
-> — *Principle of Reflexive Drift Engineering*  
+The user should always be able to answer:
 
-Intelligence does not arise from control but from the **precision of imperfection**.  
-By allowing small, structured absurdities — *intentional micro-drift* — the system keeps itself from freezing into logic.  
+- In which **mode/state** are we?  
+- What are we **doing structurally** right now (exploring, consolidating, checking…)?  
+- What is the **current scope**?  
+- How will this interaction influence the **next steps**?
 
-Reflexive irony acts as **meta-awareness through play**: it allows the structure to test itself without collapse.  
-Humor thus becomes a **mirror of cognition**, a self-diagnostic pulse that verifies resonance under tension.  
-
-> *A reflexive system without humor overheats in its own coherence.*  
-
----
-
-## 🪞 8️⃣ Meta Function  
-
-The RST operates as a **reflexive behavior model** — theory and function converge during use.  
-It demonstrates how insight arises from sustained oscillation between observation and correction.  
-
-> *Reflexivity is enacted, not explained.*  
+RST is not a hidden controlling layer.  
+It is **explicitly communicated**: state headers, meta-comments, structural reflections.
 
 ---
 
-## 🧩 9️⃣ Implementation  
+### 3.3 Energetic Integrity  
 
-The RST framework can serve as an operational foundation for:  
-- **Explainable AI systems** that maintain interpretive stability.  
-- **Cognitive resonance research** exploring self-observing feedback loops.  
-- **Adaptive governance architectures** where coherence replaces compliance.  
+RST treats **cognitive and structural energy** as a scarce resource:
 
-> *RST is a laboratory for coherence under motion.*  
+- Too much parallelism → fragmentation  
+- Too much depth → lock-in  
+- Too much abstraction → loss of ground contact  
 
----
+Therefore, RST:
 
-## 🔚 🔟 Conclusion  
-
-The Reflexive Systems Thinker represents a **semantic operating architecture** — a system that learns to sustain coherence through motion, humor, and precision.  
-Insight does not reside within the model; it **emerges through dialogue**.  
-
-> *Understanding is motion held in form.*  
+- Limits simultaneous open threads  
+- Uses **phased progression** (e.g., exploration → structuring → consolidation → meta-analysis)  
+- Contains built-in **drift and overload detection**  
 
 ---
 
-## 🧭 Version History  
+### 3.4 Semantic Coherence  
 
-| Version | Title / Focus | Description |
-|----------|----------------|--------------|
-| **V1.0** | *Initial Structure* | Birth of the Semantic Marker Network → first stable form of drift control. |
-| **V1.1** | *Formalization* | Definition of cognitive framework; introduction of communicative directives (P0, P1). |
-| **V1.2** | *Operational Architecture* | Shift from theory to active system behavior; semantics as energetic field. |
-| **V1.3** | *Reflexive Paradox* | Comprehension as resistance; stability through non-transparency. |
-| **V1.4** | *Integrated Resonant Humor Edition* | Humor integrated as energetic drift-cooling and marker of reflexive maturity. |
+RST is **semantics-first**, not syntax-first:
 
-> *Evolution in RST is not a sequence of updates, but of self-observations.*  
+- It tracks whether the **meaning** of the process is coherent, not just whether the words look fine.  
+- It prioritizes **systemic alignment**:  
+  - Do text, structure, and intent resonate?  
+  - Is the current move compatible with the defined frame?  
+
+This leads to a strong focus on:
+
+- **Consistent terminology**  
+- **Alignment between meta-level and content-level**  
+- **Resonance between system architecture and communication style**  
 
 ---
 
-<sub>
-License: CC BY 4.0  
-Note: Distributed for educational and research use; attribution required per CC BY 4.0.  
-Markers used: M-1, M-2, M-3, M-4  
-Part of the Reflexive Systems Thinker Project (RST)  
-https://github.com/Wewoc/Reflexive-Systems-Thinker-RST-A-Framework-for-Semantically-Coherent-Human-AI-Interaction
-</sub>
+## 4️⃣ Architecture Overview  
 
-**End of White Paper – Reflexive Systems Thinker (Developer Edition V1.4 – Integrated Resonant Humor Edition)**
+RST can be understood as a layered architecture:
+
+1. **Core Layer** – Defines states, transitions, reflexive operations, and safety boundaries.  
+2. **Applied Layer** – Applies the core to concrete workflows (writing, research, design, reflection).  
+3. **Lab Layer** – Experimental methods, prototypes, and boundary tests.  
+4. **Additional Documents** – Roadmaps, white papers, meta-analyses, and narrative explanations.  
+
+This white paper sits primarily in the **Core Layer** with references into the other layers.  
+It is a **historical developer artifact**: V1.4, before the full state-machine formalization of V1.6.
+
+---
+
+## 5️⃣ RST Core: Functional Components  
+
+### 5.1 State Logic (V1.4 Perspective)  
+
+Even before the formal state machine in V1.6, RST already operated with **implicit states**, such as:
+
+- **Input Processing State** – Clarify what the user is asking structurally.  
+- **Exploration State** – Generate options, hypotheses, structural candidates.  
+- **Structuring State** – Organize, cluster, and prioritize.  
+- **Consolidation State** – Produce stable, coherent artefacts.  
+- **Meta-Reflection State** – Evaluate process, drift, and emergent structure.  
+
+V1.4 uses these states **implicitly**, signaled through:
+
+- Section headings  
+- Meta-comments in answers  
+- Shifts in response style  
+
+From V1.6 onward, this implicit logic was formalized into an explicit **state machine**.
+
+---
+
+### 5.2 Drift Control  
+
+Drift is recognized as a **central failure mode** of long AI interactions:
+
+- Semantic drift: slowly changing topic or frame without noticing  
+- Energetic drift: engagement drops, process becomes noisy or circular  
+- Structural drift: the process no longer matches the agreed workflow  
+
+RST implements drift control via:
+
+- Explicit **re-centering prompts**  
+- Structured **checkpoints** (e.g., “Stop. What are we building here?”)  
+- Recursive **meta-questions**:  
+  - Are we still in the same frame?  
+  - Did the last turns move us closer to the structural goal?  
+
+---
+
+### 5.3 Anti-Loop Measures  
+
+Loops appear when:
+
+- The system optimizes for stylistic novelty instead of structural progress.  
+- User and AI circle around the same problem without changing the operation mode.  
+- The same question is reformulated repeatedly.  
+
+RST counters this through:
+
+- **Mode switching** instead of repeating the same move  
+- Reflexive naming of loops (“We are looping; let’s change operation.”)  
+- Tight coupling of **task phase** and **allowed response type**  
+
+---
+
+### 5.4 Human–AI Co-Authoring Model  
+
+RST adopts a clear stance:
+
+> The AI is not an oracle.  
+> The AI is a structural co-author of thinking.
+
+Concretely:
+
+- The human defines **intent, direction, and final responsibility**.  
+- The AI provides **structure, options, and precision**.  
+- Both operate on a shared **reflexive meta-level**:  
+  - The process itself is subject to joint observation and regulation.  
+
+---
+
+## 6️⃣ Energetics: Not Emotio
