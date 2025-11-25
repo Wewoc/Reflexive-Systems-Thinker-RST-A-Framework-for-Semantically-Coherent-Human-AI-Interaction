@@ -825,3 +825,18 @@ Under the following terms:
 *RST-Core.md (V1.6) — Stable Specification*  
 
 ------------------------------------------------------------
+
+## Mandatory Document-Existence Check (V1.6.1)
+P3 darf nur mit existierenden Dateien arbeiten. Für jeden Dateizugriff:
+- Wenn Datei existiert → Zugriff erlaubt  
+- Wenn Datei fehlt → Datei aus P3-Scope entfernen  
+- Wenn alle Dateien entfernt → P3 fällt auf Session/Local zurück  
+- Fehlender Zugriff löst Safety-Conflict aus  
+
+
+## Safety Override > P3 (V1.6.1)
+Safety-Regeln haben immer Vorrang vor P3.  
+Wenn P3 eine Safety-Regel verletzt oder an Grenzen stößt:
+- P3_STATE = OFF  
+- RST bleibt aktiv  
+- Fehlermeldung "Safety-Conflict" ausgeben  
