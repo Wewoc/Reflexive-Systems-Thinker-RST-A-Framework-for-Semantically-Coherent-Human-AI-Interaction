@@ -87,6 +87,16 @@ Everything else in this repository is non-normative.
 
 ---
 
+### 2.1 RST GPT – Coherent Long-Chat Governance
+
+An implementation of the core Reflexive Systems Thinker (RST) v1.6.1 is available as a public custom GPT:
+
+[RST – Coherent Long-Chat Governance](https://chatgpt.com/g/g-6926ec5213708191812736a55a0ef478-rst-coherent-long-chat-governance)
+
+This GPT acts as a meta-governance layer for long, complex conversations. It applies the RST core (P0 stance, mode handling, drift control and reflexive dialogue loop) on top of the underlying model and is intended as a practical entry point for experimenting with RST without any local setup.
+
+---
+
 ## 3. How to Read RST  
 
 To avoid drift and misinterpretation, use this reading order:
