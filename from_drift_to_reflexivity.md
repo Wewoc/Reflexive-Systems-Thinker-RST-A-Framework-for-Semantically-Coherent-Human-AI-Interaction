@@ -224,6 +224,7 @@ If the text reads like a dialogue with myself, that’s probably because it is.
 | Datei | LAYER | Funktion |
 |--------|--------|----------|
 | **RST Effects by Context (v1.1)** | APPLIED | Übersicht kontextabhängiger Effekte; praktische Anwendungshilfe |
+| **RST Agent Template (v1.6.1)** | APPLIED | Generisches Agentenprofil für Copilot-/GPT-Systeme; implementiert RST v1.6.1 als Meta-Governance-Layer für lange Chats |
 | **RST Model Failure Modes** | APPLIED_SUPPORT | Fehlermuster & Diagnosekatalog für RST-Verhalten |
 | **RST Model Test Prompts** | APPLIED_SUPPORT | Testsuite zur Überprüfung von Drift, P0, Struktur & Stabilität |
 | **RST Multi-LLM Stress Test Report** | META_ANALYSIS | Externe Analyse; informativ, nicht operativ |
