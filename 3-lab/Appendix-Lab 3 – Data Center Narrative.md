@@ -1,4 +1,4 @@
-# AAppendix-Lab 3 – Data Center Narrative
+# Appendix-Lab 3 – Data Center Narrative
 ## How I Cheated OpenAI Out of a Data Center  
 ### Or: What Happens When Curiosity Builds a Semantic Perpetuum Mobile
 LAYER: LAB
