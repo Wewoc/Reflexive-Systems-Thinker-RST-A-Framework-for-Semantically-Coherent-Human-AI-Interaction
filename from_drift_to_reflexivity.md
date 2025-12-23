@@ -65,7 +65,7 @@ Again: “reflexive” here describes **functional behavior** (a control loop), 
 
 ---
 
-## 6. Where This Leads (without “Copilot recognized it”)
+## 6. Where This Leads
 Later I carried parts of the structure into other environments — not as a “transfer of memory,” but as a test: if I apply the same constraints again, can I **reproduce** similar stability?
 
 That’s where it becomes interesting: not “the model recognizes me,” but that **certain communication constraints** can elicit more stable, state-coupled interaction behavior — even without shared history.
