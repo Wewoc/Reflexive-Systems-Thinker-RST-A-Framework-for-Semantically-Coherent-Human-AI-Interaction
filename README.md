@@ -97,6 +97,41 @@ This GPT acts as a meta-governance layer for long, complex conversations. It app
 
 ---
 
+## 2.2 RST GPT – Decision Coach (ACB-first Decision Support)  
+A second public custom GPT focuses on **decision support with an Anti-Confirmation-Bias (ACB) core**:
+
+- **RST Decision Coach**
+
+Unlike the governance-first GPT above, this one is optimized for **evaluative tasks** (choices, hypotheses, interpretations, trade-offs). It operationalizes a compact RST-MOP profile (structure-first, strict boundaries, drift control) and adds a **budgeted ACB routine** to reduce “token imitation” and default agreement.
+
+**What it does (ACB routine, budgeted)**
+- **Counter-hypothesis (1):** proposes a plausible alternative interpretation/choice  
+- **Context check (1 sentence):** explicitly marks whether the alternative is supported/contradicted by the provided context (or “untestable in-context”)  
+- **Falsifier (1):** names the single observation/info that would strongly weaken the recommendation  
+- **Update trigger (1):** states what concrete evidence would change the assessment
+
+**How to use**
+- Use `ACB:ON` when you want critical decision support (default recommendation + ACB checks).
+- Use `ACB:OFF` for pure structuring/rewriting tasks (no overhead).
+- Optional: `RAS:ON` / `RAS:OFF` to force/skip a final redundancy sweep for long outputs.
+
+**Conversation starters**
+- “`ACB:ON` — Decide between A vs. B. Criteria: … Constraints: …”
+- “`ACB:ON` — Stress-test this hypothesis: … What would falsify it?”
+- “`ACB:ON` — Recommend a plan, then give the one strongest counter-case.”
+
+**Note**
+- The Decision Coach is designed for *decision framing and reasoning hygiene*, not for authoritative medical/legal/financial directives.
+
+---
+
+### Links (public GPTs)
+```text
+RST Decision Coach:
+https://chatgpt.com/g/g-694bddad3620819188b5af074cc6246c-rst-decision-coach
+
+---
+
 ## 3. How to Read RST  
 
 To avoid drift and misinterpretation, use this reading order:
