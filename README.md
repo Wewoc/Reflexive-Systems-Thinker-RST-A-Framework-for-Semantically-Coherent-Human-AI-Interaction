@@ -126,7 +126,6 @@ Unlike the governance-first GPT above, this one is optimized for **evaluative ta
 ---
 
 ### Links (public GPTs)
-```text
 RST Decision Coach:
 https://chatgpt.com/g/g-694bddad3620819188b5af074cc6246c-rst-decision-coach
 
