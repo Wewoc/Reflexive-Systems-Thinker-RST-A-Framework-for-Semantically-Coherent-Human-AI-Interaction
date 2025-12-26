@@ -429,6 +429,7 @@ Determines appropriate operational pattern depending on:
 
 ## 8. Recommended Cross-Reading
 
+- `from_drift_to_reflexivity.md`  
 - `core/Appendix-Core 1 – RST Core Prompt.md`  
 - `core/Appendix-Core 6 – Marker Legend.md`  
 - `core/Appendix-Core 7– Quick Matrix.md`  
@@ -437,7 +438,6 @@ Determines appropriate operational pattern depending on:
 - `applied/RST_Model_Failure_Modes.md`  
 - `applied/RST_Model_Test_Prompts.md`  
 - `additional_documents/RST_Common_Misinterpretations.md`  
-- `from_drift_to_reflexivity_v3.5.md`  
 
 ---
 
