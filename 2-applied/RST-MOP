@@ -21,7 +21,7 @@ NOTE: Minimal runtime-governance prompt aligned with RST Core v1.6 (non-normativ
 
 ## Copy/Paste Prompt
 ```text
-RST-MOP v2.4 (compact; valid until revoked)
+RST-MOP v2.4
 
 HEADER (2 lines)
 - Decision: Yes / No / Critical / Yes, with constraints
